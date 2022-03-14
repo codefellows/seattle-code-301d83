@@ -18,7 +18,7 @@ We will spend some time reviewing the concepts from the prework. We will also di
 
 ## Learning Objectives
 
-As as result of completing Lecture 1 of Code 301, students will: 
+As as result of completing Lecture 1 of Code 301, students will:
 
 - Describe and Define:
   - Component-based architeture
@@ -38,52 +38,57 @@ As as result of completing Lecture 1 of Code 301, students will:
 1. What are components?
 1. What is the difference between an arrow function and a function declaration?
 1. Turning a function declaration into an arrow function:
+
    ```javascript
    function doSomething(name) {
      // Do something
    }
- 
+
    doSomething = (name) => {
-     // Do something 
+     // Do something
    }
- 
+
    // Or make it a one liner!
    doSomething = (name) => // Do something small
    ```
+
 1. Difference between a constructor function and a class:
+
    ```javascript
    // constructor
    function Cat(name) {
      this.name = name;
      this.fluffy = true;
    }
- 
+
    Cat.prototype.speak = function(){
      console.log(`${this.name} says meow`);
    }
- 
+
    // to make a new instance
    const bob = new Cat('Bob');
    bob.speak();
- 
+
    // class
    class Cat {
      constructor(name) {
        this.name = name;
        this.fluffy = true;
      }
- 
+
      speak = () => console.log(`${this.name} says meow`);
    }
- 
+
    // to make a new instance
    const bob = new Cat('bob');
    bob.speak();
    ```
+
 1. Basic React Component Structure:
+
    ```javascript
    import React from 'react';
- 
+
    class Something extends React.Component {
      render() {
        return(
@@ -94,6 +99,10 @@ As as result of completing Lecture 1 of Code 301, students will:
        )
      }
    }
- 
+
    export default Something
    ```
+
+## Additional Resources
+
+[Replit: Classes and forEach](https://replit.com/@sheyna/InvolvedMiniatureGlobalarrays#index.js)
