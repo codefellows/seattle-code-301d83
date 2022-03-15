@@ -34,7 +34,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
 ## Notes
 
-1. What is state? 
+1. What is state?
 
 1. What are props?
 
@@ -51,6 +51,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 1. What are different things that I can customize using Bootstrap?
 
 1. Holding state in a parent component and sending it into a child component:
+
   ```javaScript
   import React from 'react';
   import Child from './path-to-Child-component';
@@ -73,7 +74,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
   }
 
   export default Parent
-  
+
   import React from 'react';
 
   class Child extends React.Component {
@@ -86,4 +87,8 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
   export default Child
   ```
-  
+
+## Resources
+
+[Replit: into to .map() and ternariess](https://replit.com/@sheyna/Intro-to-Map-and-Terniaries)
+[Add an emoji](https://emojifinder.com/wave)
