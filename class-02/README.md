@@ -90,5 +90,5 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
 ## Resources
 
-[Replit: into to .map() and ternariess](https://replit.com/@sheyna/Intro-to-Map-and-Terniaries)
+[Replit: into to .map() and ternaries](https://replit.com/@sheyna/Intro-to-Map-and-Terniaries)
 [Add an emoji](https://emojifinder.com/wave)

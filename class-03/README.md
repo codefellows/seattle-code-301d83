@@ -34,7 +34,9 @@ As a result of completing Lecture 3 of Code 301, students will:
 1. Using React-Bootstrap, how do you determine if a modal is open or closed?
 
 1. Allowing the child component to update the state in the parent component:
-  - Step 1. send a function into the child component that updates the state in the parent component
+
+- Step 1. send a function into the child component that updates the state in the parent component
+
   ```javaScript
   class Parent extends React.Component {
     constructor(props){
@@ -54,7 +56,8 @@ As a result of completing Lecture 3 of Code 301, students will:
   }
   ```
 
-  - Step 2. invoke that function from the props in the child component
+- Step 2. invoke that function from the props in the child component
+
   ```javaScript
   class Child extends React.Component {
     constructor(props){
@@ -80,4 +83,9 @@ As a result of completing Lecture 3 of Code 301, students will:
   }
   ```
 
-  - Step 3. The invoked function from the child component will update the name in the parent component and tada! Your child component has essientially changed the state of your parent component.
+- Step 3. The invoked function from the child component will update the name in the parent component and tada! Your child component has essientially changed the state of your parent component.
+
+## Resources
+
+[Replit: into to .filter()](https://replit.com/@sheyna/array-filter-example)
+[Bootstrap classes cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet/)
