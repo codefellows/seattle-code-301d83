@@ -32,3 +32,7 @@ As a result of completing lecture 4 of Code 301, students will:
 1. If I am listening for an onChange on the input field, how to I access the value that the user is typing in?
 
 1. If the form is my child component, how do I send the information collected from that form up to the parent component?
+
+## Resources
+
+- [Replit: Into to array sort method](https://replit.com/@sheyna/Intro-to-the-array-sort-method)
