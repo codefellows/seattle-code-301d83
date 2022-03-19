@@ -87,7 +87,7 @@ As a result of completing lecture 5 of Code 301, students will:
     }
   }
   ```
-
+c
 ## Resources
 
 - [Intro to array method .reduce()](https://replit.com/@sheyna/Intro-to-array-method-reduce#index.js)
