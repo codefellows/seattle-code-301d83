@@ -1,0 +1,24 @@
+{
+  "name": "pets-api",
+  "version": "1.0.0",
+  "description": "Demo for building a server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheyna/pets-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheyna/pets-api/issues"
+  },
+  "homepage": "https://github.com/sheyna/pets-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
