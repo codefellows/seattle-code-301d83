@@ -37,6 +37,7 @@ As a result of completing lecture 10 of Code 301, students will:
 1. List 5 different debugging tools:
 
 1. Adding to the cache:
+
   ```javaScript
     if(inMemoryDB[ingredient] !== undefined){
       // if the info is in the inMemoryDB, just use that data
@@ -47,19 +48,26 @@ As a result of completing lecture 10 of Code 301, students will:
       inMemoryDB[ingredient] = recipeArr;
     }
   ```
+
 1. How to keep track of how old the data is: add a key with the time stamp in the constructor
+
   ```javaScript
   function Recipe(obj){
     // other keys
     this.dateAdded = Date.now();
   }
   ```
-  - compare that date/time with however long you want to keep the data. If the data is too old, just empty the object
+
+- compare that date/time with however long you want to keep the data. If the data is too old, just empty the object
+
   ```javaScript
   if (cache[key] && (Date.now() - cache[key].dateAdded < 50000)) {
     console.log('Cache hit');
-  } else { 
+  } else {
     // dump the data and get fresh data from the API
   }
   ```
-  
+
+## Resources
+
+- [Intro: for in loops](https://replit.com/@sheyna/Intro-for-in-loop#index.js)
